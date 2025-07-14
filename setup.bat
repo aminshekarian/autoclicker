@@ -18,7 +18,7 @@ if %errorlevel% neq 0 (
 )
 
 echo Step 2: Installing required packages...
-pip install pyautogui keyboard tkinter --quiet
+pip install pyautogui keyboard --quiet
 
 echo Step 3: Running AutoClicker...
 if exist "autoclicker.py" (
